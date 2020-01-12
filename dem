@@ -1,0 +1,1 @@
+echo $* | c++filt -ns auto

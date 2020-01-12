@@ -1,0 +1,6 @@
+if [ $# -eq 0 ]; then
+  git push origin HEAD~1:refs/heads/`git status | grep "On branch" | sed 's/On branch //g'` -f
+else
+  git push origin $1:refs/heads/`git status | grep "On branch" | sed 's/On branch //g'` -f
+fi
+
