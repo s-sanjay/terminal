@@ -1,0 +1,9 @@
+:set expandtab
+:set tabstop=3
+:set number
+:set mouse=a
+:set ignorecase
+:set smartcase
+:set hlsearch
+:set clipboard=unnamed
+:set backspace=indent,eol,start
